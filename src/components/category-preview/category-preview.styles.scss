@@ -1,0 +1,30 @@
+.category-preview-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 20px 40px;
+    margin-top: 60px;
+    
+    h2{
+      margin-top: 50px;
+    }
+    .title {
+      font-size: 28px;
+      margin-bottom: 25px;
+      cursor: pointer;
+      background: red;
+      padding: 10px 20px;
+      color: #fff;
+    }
+    .title:hover{
+      background: #d71515;
+    }
+  
+    .preview {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 20px;
+      margin-top: 20px;
+    }
+  }
+  
